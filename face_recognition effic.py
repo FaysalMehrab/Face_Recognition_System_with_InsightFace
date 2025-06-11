@@ -201,8 +201,8 @@ def main(image_path, embeddings_folder="Embeddings"):
 
 if __name__ == "__main__":
     # To test with an image, uncomment the next two lines:
-    test_image = "jackie.jpeg"  # Ensure this file exists
+    test_image = "path/to/test/file"  # Ensure this file exists
     main(test_image)
 
     # To use webcam for real-time recognition, uncomment:
-    run_webcam_recognition("Embeddings")
+    #run_webcam_recognition("Embeddings")
