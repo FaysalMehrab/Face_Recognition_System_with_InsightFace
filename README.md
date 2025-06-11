@@ -163,7 +163,7 @@ streamlit run face_recognition_streamlit.py
 
 ## Screenshots
 
-![UI Screenshot](https://via.placeholder.com/800x400?text=SecureFace+Demo)
+![Screenshot (55)](https://github.com/user-attachments/assets/d2c2753a-638e-4e57-ba2d-d520597d71b3)
 
 
 ## Notes
