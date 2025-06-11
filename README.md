@@ -22,10 +22,9 @@ It includes scripts for **extracting face embeddings** from images and performin
 ---
 
 ## Output:
-![output_tom](https://github.com/user-attachments/assets/23a1b6c8-ff51-4d78-b3a3-c849d961c75d)
+![output_tom](https://github.com/user-attachments/assets/83f03e41-175a-4ad9-852c-aa380a900896)
 
-
-![output_jackie](https://github.com/user-attachments/assets/e495b864-9fa5-47ec-869e-e3bc826c9c8a)
+![output_jackie](https://github.com/user-attachments/assets/ae502e8d-d00b-4ca5-a80d-c9ef460aba72)
 
 ## Folder Structure
 
