@@ -116,6 +116,55 @@ if __name__ == "__main__":
 ```
 
 ---
+## How to Run  face_recognition_screen
+
+**For image recognition:**
+1. Place your test image (e.g., `jackie.jpeg`) in the project folder.
+2. Make sure your embeddings are in the `Embeddings` folder.
+3. Run:
+    ```bash
+    python face_recognition_screen.py
+    ```
+
+**For real-time webcam recognition:**
+- Uncomment the `run_webcam_recognition("Embeddings")` line in the `__main__` block.
+- Run:
+    ```bash
+    python face_recognition_screen.py
+    ```
+
+**For real-time screen recognition:**
+- Make sure the `run_screen_recognition("Embeddings")` line is uncommented in the `__main__` block.
+- Run:
+    ```bash
+    python face_recognition_screen.py
+    ```
+
+## Run   face_recognition_streamlit.py 
+2. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(You need `streamlit`, `opencv-python`, `insightface`, `scikit-learn`, `numpy`)*
+
+3. **Prepare your embeddings:**
+    - Place your `.npy` face embeddings in the `Embeddings` folder, organized by person.
+
+## Usage
+
+```bash
+streamlit run face_recognition_streamlit.py
+```
+
+- Click **Start Recognition** to activate the camera.
+- Stand in front of your webcam. If recognized, the door will open and your name will be shown in bold.
+- Unknown faces get a red box and "UNKNOWN" label with similarity.
+- If no face is detected, the system will let you know.
+
+## Screenshots
+
+![UI Screenshot](https://via.placeholder.com/800x400?text=SecureFace+Demo)
+
 
 ## Notes
 
